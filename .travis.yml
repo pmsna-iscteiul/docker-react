@@ -7,4 +7,4 @@ before_install:
     - docker build -t dockerpedroinfo/docker-react -f Dockerfile.dev .
     
 script:
-    - docker run dockerpedroinfo/docker-react npm run test -- --coverage
+    - docker run dockerpedroinfo/docker-react npm run test -- --coverage 
